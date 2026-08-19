@@ -2,7 +2,10 @@
 
 <img width="1288" height="431" alt="Screenshot 2026-08-17 220255" src="https://github.com/user-attachments/assets/c242ec55-3da5-4c81-82a2-17ebd3007c51" />
 
-I have building a 65% layout keyboard based on Seed Studio Xiao nrf52840 also It will have a 3.7v battery and an 0.91 inch OLED Screen. Switches will be HotSwapable. I used expander to connect the rows and coluns because there weren't enough pins available. The board also include a micropad of 4x3 layout and has 3 rotor encoders to control volume/Brightness/ timeline (while editing/ Zoom in-out).
+I have building a 65% layout keyboard and it is  based on Seed Studio Xiao nrf52840 because it has Bluetooth capabilities. the number of available pins on Xiao was less So I used 2 expanders for connection . <br>The keyboard also has a  3.7v battery for the power also it could be charged by the USB-C available on xiao as it has an inbuilt charging IC. <br> The keyboard also has an 0.91 inch OLED Screen . Which will be used to display present time/ and how long are you working for . <br> The  Switches  on the board are also hot swappable. So there is no need to solder the switches and we could easily change it .    <br> The board also include a micro pad of 4x3 layout which could be used as shot-cuts for any apps  and has 3 rotor encoders to control volume/Brightness/ timeline (while editing/ Zoom in-out).
+
+<br> The CAD design is a three layered design in which the Bottom layer holds the keyboard PCB and there is a middle layer holds and give structure to the Switches and stabilizes them . then the top layer close and finished the board. All the three pieces connect to each other in a leg-joint manner. 
+<br>
 
 ## Features
 -  nrf52840 Rp2040
